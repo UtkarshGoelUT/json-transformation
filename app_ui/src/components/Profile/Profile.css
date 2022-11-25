@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+
+img {
+  height: auto;
+  width: auto;
+  /* border-radius: 15px; */
+}
+
+.pf-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pf-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 50px 70px;
+  /* box-shadow: 10px 10px 8px #b3b2b2; */
+  /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
+}
+
+.shadow {
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow:before,
+.shadow:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  -moz-border-radius: 100px / 10px;
+  border-radius: 100px / 10px;
+}
+.shadow:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+  -moz-transform: skew(8deg) rotate(3deg);
+  -ms-transform: skew(8deg) rotate(3deg);
+  -o-transform: skew(8deg) rotate(3deg);
+  transform: skew(8deg) rotate(3deg);
+}
+
+.new-overlay {
+  bottom: 400;
+}
+
+.pic--wrap {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  overflow: "hidden";
+}
+.img__description {
+  border-bottom: 100px;
+  margin: auto;
+  background: rgba(15, 15, 15, 0);
+  color: rgb(0, 0, 0);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+  margin-top: 150px;
+}
+
+.pic--wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+strong {
+  font-family: "Dosis", sans-serif;
+  bottom: 2px;
+  font-size: 18px;
+}
+
+/* Cards */
+
+.cards {
+  padding: 4rem;
+  background: #fff;
+}
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(0, 26, 255), 0 0 82px rgb(0, 26, 255), 0 0 92px rgb(0, 26, 255),
+    0 0 102px rgb(0, 26, 255), 0 0 151px rgb(0, 26, 255);
+}
+
+.projects {
+  width: 100%;
+  margin-top: 20px;
+}
+.project {
+  margin: 25px 50px;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.wrapper {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+.landingBg {
+    background-image: url('../images/waves.svg');
+    background-size: auto 88vh;
+    height: 88vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.landingBg::-webkit-scrollbar {
+    display: none;
+}
+
+
+.introduction,
+.features {
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introTitle {
+    font-weight: 900;
+    font-family: Montserrat;
+    font-size: 10rem;
+    margin-top: -5vh;
+    margin-bottom: 2vh;
+    background: -webkit-linear-gradient(0deg, #3cdbfa, #b100eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.introBody {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.featuresTitle {
+    font-weight: 900;
+    font-family: Montserrat;
+    font-size: 6rem;
+    margin-bottom: 2vh;
+    background: -webkit-linear-gradient(0deg, #3cdbfa, #b100eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.featuresBody {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 75vw;
+    margin-bottom: 2vh;
+}
+
+.aboutBg {
+    background-image: url('../images/waves-inverted.svg');
+    background-size: cover;
+    background-size: auto 88vh;
+}
+
+.about {
+    height: 88vh;
+}

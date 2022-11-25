@@ -1,0 +1,62 @@
+.box{
+    display: flex;
+    margin: 50px;
+    margin-top: 120px;
+}
+
+.formStyle {
+    display: flex;
+    flex: 1;
+}
+
+.formItems{
+    width: 600px;
+}
+
+.button{
+    background-color: rgb(50, 222, 212);
+    border-color: rgb(50, 222, 212);
+    width: 220px;
+    margin-top: 10px;
+    align-self: center;
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(50, 222, 212);
+    border-color: rgb(50, 222, 212);
+    width: 220px;
+    margin-top: 10px;
+    align-self: center;
+    color: white;
+}
+
+.InputOutput{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.targetJson{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.sourceJson{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 10px;
+}
+
+.mappingJson{
+    margin-top: 20px;
+}
+
+.outputCode{
+    width: 700px;
+    margin-left: 90px;
+}
